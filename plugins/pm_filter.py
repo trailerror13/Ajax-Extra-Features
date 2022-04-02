@@ -245,7 +245,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('𝚃𝙷𝙸𝚂 𝙼𝙾𝚅𝙸𝙴 I𝚂 𝙽𝙾𝚃 𝚈𝙴𝚃 𝚁𝙴𝙻𝙴𝙰𝚂𝙴𝙳 𝙾𝚁 𝙰𝙳𝙳𝙴𝙳 𝚃𝙾 𝙳𝙰𝚃𝚂𝙱𝙰𝚂𝙴 💌')
+            k = await query.message.edit('𝑻̲̅𝑯̲̅𝑰̲̅𝑺̲̅ 𝑴̲̅𝑶̲̅𝑽̲̅𝑰̲̅𝑬̲̅𝑺̲̅ 𝑰̲̅𝑺̲̅ 𝑵̲̅𝑶̲̅𝑻̲̅ 𝑨̲̅𝑫̲̅𝑫̲̅𝑬̲̅𝑫̲̅ 𝑻̲̅𝑶̲̅ 𝑴̲̅𝒀̲̅ 𝑫̲̅𝑨̲̅𝑻̲̅𝑨̲̅𝑩̲̅𝑨̲̅𝑺̲̅𝑬̲̅ 💌')
             await asyncio.sleep(10)
             await k.delete()
 
@@ -747,13 +747,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+M8xm6tr2TwU5MTU1'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/cinemahub1000')
+            InlineKeyboardButton('💠 𝑪̲̅𝑯̲̅𝑨̲̅𝑵̲̅𝑵̲̅𝑬̲̅𝑳̲̅ 💠', url='https://t.me/+M8xm6tr2TwU5MTU1'),
+            InlineKeyboardButton('💠 𝑼̲̅𝑷̲̅𝑫̲̅𝑨̲̅𝑻̲̅𝑬̲̅ 💠', url='https://t.me/cinemahub1000')
             ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('♻️ 𝑯̲̅𝑬̲̅𝑳̲̅𝑷̲̅ ♻️', callback_data='help'),
+            InlineKeyboardButton('♻️ 𝑨̲̅𝑩̲̅𝑶̲̅𝑼̲̅𝑻̲̅ ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://t.me/cinemahub00')
+            InlineKeyboardButton('✅ 𝑱̲̅𝑶̲̅𝑰̲̅𝑵̲̅ 𝑭̲̅𝑶̲̅𝑹̲̅ 𝑴̲̅𝑶̲̅𝑽̲̅𝑰̲̅𝑬̲̅𝑺̲̅  ✅', url='https://t.me/cinemahub00')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -844,10 +844,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('♥️ 𝙳𝙴𝙿𝙻𝙾𝚈 𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻 ♥️', url='https://t.me/cinemahub1000')
+            InlineKeyboardButton('♥️ 𝑱̲̅𝑶̲̅𝑰̲̅𝑵̲̅ 𝑭̲̅𝑶̲̅𝑹̲̅ 𝑴̲̅𝑶̲̅𝑽̲̅𝑰̲̅𝑬̲̅𝑺̲̅ ♥️', url='https://t.me/cinemahub1000')
             ],[
-            InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start'),
-            InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close_data')
+            InlineKeyboardButton('🏠 𝑯̲̅𝑶̲̅𝑴̲̅𝑬̲̅ 🏠', callback_data='start'),
+            InlineKeyboardButton('🔐 𝑪̲̅𝑳̲̅𝑶̲̅𝑺̲̅𝑬̲̅ 🔐', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1066,8 +1066,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "extra":
         buttons = [[
-            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help'),
-            InlineKeyboardButton('𝙰𝙳𝙼𝙸𝙽', callback_data='admin')
+            InlineKeyboardButton('𝑩̲̅𝑨̲̅𝑪̲̅𝑲̲̅', callback_data='help'),
+            InlineKeyboardButton('𝑨̲̅𝑫̲̅𝑴̲̅𝑰̲̅𝑵̲̅', callback_data='admin')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1077,8 +1077,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "gtrans":
         buttons = [[
-            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help'),
-            InlineKeyboardButton('𝙻𝙰𝙽𝙶 𝙲𝙾𝙳𝙴𝚂', url='https://cloud.google.com/translate/docs/languages')
+            InlineKeyboardButton('𝑩̲̅𝑨̲̅𝑪̲̅𝑲̲̅', callback_data='help'),
+            InlineKeyboardButton('𝑳̲̅𝑨̲̅𝑵̲̅𝑮̲̅ 𝑪̲̅𝑶̲̅𝑫̲̅𝑬̲̅𝑺̲̅', url='https://cloud.google.com/translate/docs/languages')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1173,8 +1173,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "stats":
         buttons = [[
-            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help'),
-            InlineKeyboardButton('𝚁𝙴𝙵𝚁𝙴𝚂𝙷', callback_data='rfrsh')
+            InlineKeyboardButton('𝑩̲̅𝑨̲̅𝑪̲̅𝑲̲̅', callback_data='help'),
+            InlineKeyboardButton('𝑹̲̅𝑬̲̅𝑭̲̅𝑹̲̅𝑬̲̅𝑺̲̅𝑯̲̅', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
@@ -1192,8 +1192,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "rfrsh":
         await query.answer("Fetching MongoDb DataBase")
         buttons = [[
-            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help'),
-            InlineKeyboardButton('𝚁𝙴𝙵𝚁𝙴𝚂𝙷', callback_data='rfrsh')
+            InlineKeyboardButton('𝑩̲̅𝑨̲̅𝑪̲̅𝑲̲̅', callback_data='help'),
+            InlineKeyboardButton('𝑹̲̅𝑬̲̅𝑭̲̅𝑹̲̅𝑬̲̅𝑺̲̅𝑯̲̅', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
