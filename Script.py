@@ -4,14 +4,14 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
  𝑯̲̅𝑬̲̅𝑹̲̅𝑬̲̅ 𝑰̲̅𝑺̲̅ 𝑴̲̅𝒀̲̅ 𝑯̲̅𝑬̲̅𝑳̲̅𝑷̲̅ 𝑪̲̅𝑶̲̅𝑴̲̅𝑴̲̅𝑨̲̅𝑵̲̅𝑫̲̅𝑺̲̅."""
     ABOUT_TXT = """<b>✮ 𝙼𝚈 𝙽𝙰𝙼𝙴: lυcαѕ вoт</b>
-<b>✮ ᴄʀᴇᴀᴛᴏʀ: <a href="https://t.me/Sovel_jaison"> ѕσνєℓ נαιѕση </a>
-<b>✮ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ:<a href="https://t.me/cinemahub1000"> ᴄɪɴᴇᴍᴀ ʜᴜʙ </a></b>
-<b>✮ ʟɪʙʀᴀʀʏ: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>
-<b>✮ ʟᴀɴɢᴜᴀɢᴇ: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹</b>
-<b>✮ ᴅᴀᴛᴀ ʙᴀsᴇ: 𝙼𝙾𝙽𝙶𝙾-𝙳𝙱</b>
-<b>✮ ʙᴏᴛ sᴇʀᴠᴇʀ: 𝙷𝙴𝚁𝙾𝙺𝚄</b>
-<b>✮ ʙᴜɪʟᴅ sᴛᴀᴛᴜs: 𝚅1.0.43</b>
-<b>✮ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: <a href="https://t.me/bastin_joe"> вαѕтιη נσє </a></b>"""
+<b>✮ Creαтor: <a href="https://t.me/Sovel_jaison"> ѕσνєℓ נαιѕση </a>
+<b>✮ Updαтe Cнαɴɴel:<a href="https://t.me/cinemahub1000"> ᴄɪɴᴇᴍᴀ ʜᴜʙ </a></b>
+<b>✮ Lιвrαry: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>
+<b>✮ Lαɴɢυαɢe: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹</b>
+<b>✮ Dαтα Bαѕe: 𝙼𝙾𝙽𝙶𝙾-𝙳𝙱</b>
+<b>✮ Boт Server: 𝙷𝙴𝚁𝙾𝙺𝚄</b>
+<b>✮ Bυιld Sтαтυѕ: 𝚅1.0.43</b>
+<b>✮ Mαιɴтαιɴed By: <a href="https://t.me/bastin_joe"> вαѕтιη נσє </a></b>"""
     DONATION_TXT = """<b>𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧 & 𝐏𝐚𝐢𝐝 𝐏𝐫𝐨𝐦𝐨𝐭𝐢𝐨𝐧</b> 
 
 ›› <b>𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧</b>
