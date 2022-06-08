@@ -149,7 +149,7 @@ Helps you to know your ping 🚶🏼‍♂️
 • /ping - To get your ping.
 • /repo - Source Code.
 • /channel - Channel Details.
-• /ajax - Bot Link.
+• /lucas - Bot Link.
 <b>🏹Usage🏹 :</b>
 
 • This commands can be used in pms and groups
@@ -252,12 +252,15 @@ This module only works for my admins
 • /unban_user  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """<b>᚛› 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code></b>
-<b>᚛› 𝑻̲̅𝑶̲̅𝑻̲̅𝑨̲̅𝑳̲̅ 𝑼̲̅𝑺̲̅𝑬̲̅𝑹̲̅𝑺̲̅: <code>{}</code></b>
-<b>᚛› 𝑻̲̅𝑶̲̅𝑻̲̅𝑨̲̅𝑳̲̅ 𝑪̲̅𝑯̲̅𝑨̲̅𝑻̲̅𝑺̲̅: <code>{}</code></b>
-<b>᚛› 𝑼̲̅𝑺̲̅𝑬̲̅𝑫̲̅ 𝑺̲̅𝑻̲̅𝑶̲̅𝑹̲̅𝑨̲̅𝑮̲̅𝑬̲̅: <code>{}</code> 𝙼𝙱</b>
-<b>᚛› 𝑭̲̅𝑹̲̅𝑬̲̅𝑬̲̅ 𝑺̲̅𝑻̲̅𝑶̲̅𝑹̲̅𝑨̲̅𝑮̲̅𝑬̲̅: <code>{}</code> 𝙼𝙱</b>"""
-    LOG_TEXT_G = """#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
+    STATUS_TXT = """<b>᚛› 🗂️ ᴛᴏᴛᴀʟ ғɪʟᴇs: <code>{}</code></b>
+<b>᚛› 👤 ᴛᴏᴛᴀʟ ᴜsᴇʀs: <code>{}</code></b>
+<b>᚛› 👥 ᴛᴏᴛᴀʟ ᴄʜᴀᴛs: <code>{}</code></b>
+<b>᚛› 📈 ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝙱</b>
+<b>᚛› 📊 ғʀᴇᴇ sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝙱</b>"""
+    
+    <b>᚛› ⍟───[ Cιɴeмα Hυв ]───⍟</b>
+    
+   LOG_TEXT_G = """#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
     
 <b>᚛› 𝐆𝐫𝐨𝐮𝐩 ⪼ {}(<code>{}</code>)</b>
 <b>᚛› 𝐓𝐨𝐭𝐚𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 ⪼ <code>{}</code></b>
