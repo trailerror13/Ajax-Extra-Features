@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('💠 𝑪̲̅𝑯̲̅𝑨̲̅𝑵̲̅𝑵̲̅𝑬̲̅𝑳̲̅ 💠', url='https://t.me/+M8xm6tr2TwU5MTU1')
+                InlineKeyboardButton('💠 𝑪̲̅𝑯̲̅𝑨̲̅𝑵̲̅𝑵̲̅𝑬̲̅𝑳̲̅ 💠', url='https://t.me/+qQX1ym3YnBM4NjZl')
             ],
             [
                 InlineKeyboardButton('♻️ 𝑯̲̅𝑬̲̅𝑳̲̅𝑷̲̅ ♻️', url=f"https://t.me/{temp.U_NAME}?start=help")
@@ -44,8 +44,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ 𝑨̲̅𝑫̲̅𝑫̲̅ 𝑴̲̅𝑬̲̅ 𝑻̲̅𝑶̲̅ 𝒀̲̅𝑶̲̅𝑼̲̅𝑹̲̅ 𝑮̲̅𝑹̲̅𝑶̲̅𝑼̲̅𝑷̲̅ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 𝑪̲̅𝑯̲̅𝑨̲̅𝑵̲̅𝑵̲̅𝑬̲̅𝑳̲̅ 💠', url='https://t.me/+M8xm6tr2TwU5MTU1'),
-            InlineKeyboardButton('💠 𝑼̲̅𝑷̲̅𝑫̲̅𝑨̲̅𝑻̲̅𝑬̲̅ 💠', url='https://t.me/cinemahub1000')
+            InlineKeyboardButton('💠 𝑪̲̅𝑯̲̅𝑨̲̅𝑵̲̅𝑵̲̅𝑬̲̅𝑳̲̅ 💠', url='https://t.me/+qQX1ym3YnBM4NjZl'),
+            InlineKeyboardButton('💠 𝑼̲̅𝑷̲̅𝑫̲̅𝑨̲̅𝑻̲̅𝑬̲̅ 💠', url='https://t.me/cinemahub0010')
             ],[      
             InlineKeyboardButton('♻️ 𝑯̲̅𝑬̲̅𝑳̲̅𝑷̲̅ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ 𝑨̲̅𝑩̲̅𝑶̲̅𝑼̲̅𝑻̲̅ ♻️', callback_data='about')
@@ -89,10 +89,10 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('⚚ 𝑨̲̅𝑫̲̅𝑫̲̅ 𝑴̲̅𝑬̲̅ 𝑻̲̅𝑶̲̅ 𝒀̲̅𝑶̲̅𝑼̲̅𝑹̲̅ 𝑮̲̅𝑹̲̅𝑶̲̅𝑼̲̅𝑷̲̅ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 𝑪̲̅𝑯̲̅𝑨̲̅𝑵̲̅𝑵̲̅𝑬̲̅𝑳̲̅ 💠', url='https://t.me/+M8xm6tr2TwU5MTU1'),
-            InlineKeyboardButton('💠 𝑼̲̅𝑷̲̅𝑫̲̅𝑨̲̅𝑻̲̅𝑬̲̅ 💠', url='https://t.me/cinemahub1000')
+            InlineKeyboardButton('💠 𝑪̲̅𝑯̲̅𝑨̲̅𝑵̲̅𝑵̲̅𝑬̲̅𝑳̲̅ 💠', url='https://t.me/+qQX1ym3YnBM4NjZl'),
+            InlineKeyboardButton('💠 𝑼̲̅𝑷̲̅𝑫̲̅𝑨̲̅𝑻̲̅𝑬̲̅ 💠', url='https://t.me/cinemahub0010')
             ],[      
             InlineKeyboardButton('♻️ 𝑯̲̅𝑬̲̅𝑳̲̅𝑷̲̅ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ 𝑨̲̅𝑩̲̅𝑶̲̅𝑼̲̅𝑻̲̅ ♻️', callback_data='about')
