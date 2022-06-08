@@ -2,7 +2,7 @@ class script(object):
     START_TXT = """Hello {},
 My Nαмe Iѕ <a href=https://t.me/{}>{}</a>, I Cαɴ Provιde Movιeѕ, Add Me To Yoυr Groυp Aɴd Mαĸe Me Adмιɴ.. Tнeɴ See My Power♥️♥️🔥"""
     HELP_TXT = """𝙷𝙴𝚈 {}
- 𝑯̲̅𝑬̲̅𝑹̲̅𝑬̲̅ 𝑰̲̅𝑺̲̅ 𝑴̲̅𝒀̲̅ 𝑯̲̅𝑬̲̅𝑳̲̅𝑷̲̅ 𝑪̲̅𝑶̲̅𝑴̲̅𝑴̲̅𝑨̲̅𝑵̲̅𝑫̲̅𝑺̲̅."""
+ Here Iѕ My Help Coммαɴdѕ."""
     ABOUT_TXT = """<b>✮ 𝙼𝚈 𝙽𝙰𝙼𝙴: lυcαѕ вoт</b>
 <b>✮ Creαтor: <a href="https://t.me/Sovel_jaison"> ѕσνєℓ נαιѕση </a>
 <b>✮ Updαтe Cнαɴɴel:<a href="https://t.me/cinemahub00"> ᴄɪɴᴇᴍᴀ ʜᴜʙ </a></b>
