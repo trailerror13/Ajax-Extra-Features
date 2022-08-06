@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('💠 𝑪̲̅𝑯̲̅𝑨̲̅𝑵̲̅𝑵̲̅𝑬̲̅𝑳̲̅ 💠', url='https://t.me/+qQX1ym3YnBM4NjZl')
+                InlineKeyboardButton('Cнαηηєℓѕ', url='https://t.me/emotionmedia')
             ],
             [
-                InlineKeyboardButton('♻️ 𝑯̲̅𝑬̲̅𝑳̲̅𝑷̲̅ ♻️', url=f"https://t.me/{temp.U_NAME}?start=help")
+                InlineKeyboardButton('Hєℓρ', url=f"https://t.me/{temp.U_NAME}?start=help")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -42,15 +42,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⚚ 𝑨̲̅𝑫̲̅𝑫̲̅ 𝑴̲̅𝑬̲̅ 𝑻̲̅𝑶̲̅ 𝒀̲̅𝑶̲̅𝑼̲̅𝑹̲̅ 𝑮̲̅𝑹̲̅𝑶̲̅𝑼̲̅𝑷̲̅ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('⚚ A∂∂ Mє тσ Yσυя тσ Gяσυρ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 𝑪̲̅𝑯̲̅𝑨̲̅𝑵̲̅𝑵̲̅𝑬̲̅𝑳̲̅ 💠', url='https://t.me/+qQX1ym3YnBM4NjZl'),
-            InlineKeyboardButton('💠 𝑼̲̅𝑷̲̅𝑫̲̅𝑨̲̅𝑻̲̅𝑬̲̅ 💠', url='https://t.me/cinemahub0010')
+            InlineKeyboardButton('Cнαηηєℓѕ', url='https://t.me/emotionmedia'),
+            InlineKeyboardButton('Uρ∂αтє', url='https://t.me/amsmoviehub')
             ],[      
-            InlineKeyboardButton('♻️ 𝑯̲̅𝑬̲̅𝑳̲̅𝑷̲̅ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ 𝑨̲̅𝑩̲̅𝑶̲̅𝑼̲̅𝑻̲̅ ♻️', callback_data='about')
+            InlineKeyboardButton('Hєℓρ', callback_data='help'),
+            InlineKeyboardButton('Aвσυт', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ 𝑱̲̅𝑶̲̅𝑰̲̅𝑵̲̅ 𝑭̲̅𝑶̲̅𝑹̲̅ 𝑴̲̅𝑶̲̅𝑽̲̅𝑰̲̅𝑬̲̅𝑺̲̅ ✅', url='https://t.me/cinemahub00')
+            InlineKeyboardButton('Jσιη Fσя мσνιєѕ', url='https://t.me/amsmoviehub')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
@@ -89,15 +89,15 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('⚚ 𝑨̲̅𝑫̲̅𝑫̲̅ 𝑴̲̅𝑬̲̅ 𝑻̲̅𝑶̲̅ 𝒀̲̅𝑶̲̅𝑼̲̅𝑹̲̅ 𝑮̲̅𝑹̲̅𝑶̲̅𝑼̲̅𝑷̲̅ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('⚚ A∂∂ Mє тσ Yσυя тσ Gяσυρ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 𝑪̲̅𝑯̲̅𝑨̲̅𝑵̲̅𝑵̲̅𝑬̲̅𝑳̲̅ 💠', url='https://t.me/+qQX1ym3YnBM4NjZl'),
-            InlineKeyboardButton('💠 𝑼̲̅𝑷̲̅𝑫̲̅𝑨̲̅𝑻̲̅𝑬̲̅ 💠', url='https://t.me/cinemahub0010')
+            InlineKeyboardButton('Cнαηηєℓѕ', url='https://t.me/emotionmedia'),
+            InlineKeyboardButton('Uρ∂αтє', url='https://t.me/amsmoviehub')
             ],[      
-            InlineKeyboardButton('♻️ 𝑯̲̅𝑬̲̅𝑳̲̅𝑷̲̅ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ 𝑨̲̅𝑩̲̅𝑶̲̅𝑼̲̅𝑻̲̅ ♻️', callback_data='about')
+            InlineKeyboardButton('Hєℓρ', callback_data='help'),
+            InlineKeyboardButton('Aвσυт', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ 𝑱̲̅𝑶̲̅𝑰̲̅𝑵̲̅ 𝑭̲̅𝑶̲̅𝑹̲̅ 𝑴̲̅𝑶̲̅𝑽̲̅𝑰̲̅𝑬̲̅𝑺̲̅  ✅', url='https://t.me/cinemahub00')
+            InlineKeyboardButton('Jσιη Fσя мσνιєѕ', url='https://t.me/amsmoviehub')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("Typing")
