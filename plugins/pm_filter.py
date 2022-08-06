@@ -745,15 +745,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⚚ 𝑨̲̅𝑫̲̅𝑫̲̅ 𝑴̲̅𝑬̲̅ 𝑻̲̅𝑶̲̅ 𝒀̲̅𝑶̲̅𝑼̲̅𝑹̲̅ 𝑮̲̅𝑹̲̅𝑶̲̅𝑼̲̅𝑷̲̅ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('⚚ A∂∂ Mє тσ Yσυя тσ Gяσυρ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 𝑪̲̅𝑯̲̅𝑨̲̅𝑵̲̅𝑵̲̅𝑬̲̅𝑳̲̅ 💠', url='https://t.me/+qQX1ym3YnBM4NjZl'),
-            InlineKeyboardButton('💠 𝑼̲̅𝑷̲̅𝑫̲̅𝑨̲̅𝑻̲̅𝑬̲̅ 💠', url='https://t.me/cinemahub0010')
+            InlineKeyboardButton('Cнαηηєℓѕ', url='https://t.me/emotionmedia'),
+            InlineKeyboardButton('Uρ∂αтє', url='https://t.me/amsmoviehub')
             ],[      
-            InlineKeyboardButton('♻️ 𝑯̲̅𝑬̲̅𝑳̲̅𝑷̲̅ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ 𝑨̲̅𝑩̲̅𝑶̲̅𝑼̲̅𝑻̲̅ ♻️', callback_data='about')
+            InlineKeyboardButton('Hєℓρ', callback_data='help'),
+            InlineKeyboardButton('Aвσυт', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ 𝑱̲̅𝑶̲̅𝑰̲̅𝑵̲̅ 𝑭̲̅𝑶̲̅𝑹̲̅ 𝑴̲̅𝑶̲̅𝑽̲̅𝑰̲̅𝑬̲̅𝑺̲̅  ✅', url='https://t.me/cinemahub00')
+            InlineKeyboardButton('Jσιη Fσя мσνιєѕ', url='https://t.me/amsmoviehub')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -844,7 +844,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('♥️ 𝑱̲̅𝑶̲̅𝑰̲̅𝑵̲̅ 𝑭̲̅𝑶̲̅𝑹̲̅ 𝑴̲̅𝑶̲̅𝑽̲̅𝑰̲̅𝑬̲̅𝑺̲̅ ♥️', url='https://t.me/cinemahub0010')
+            InlineKeyboardButton('♥️ Jσιη Fσя мσνιєѕ', url='https://t.me/amsmoviehub')
             ],[
             InlineKeyboardButton('🏠 𝑯̲̅𝑶̲̅𝑴̲̅𝑬̲̅ 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝑪̲̅𝑳̲̅𝑶̲̅𝑺̲̅𝑬̲̅ 🔐', callback_data='close_data')
