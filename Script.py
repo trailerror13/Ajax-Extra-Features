@@ -3,15 +3,15 @@ class script(object):
 My Nαмe Iѕ <a href=https://t.me/{}>{}</a>, I Cαɴ Provιde Movιeѕ, Add Me To Yoυr Groυp Aɴd Mαĸe Me Adмιɴ.. Tнeɴ See My Power♥️♥️🔥"""
     HELP_TXT = """𝙷𝙴𝚈 {}
  Here Iѕ My Help Coммαɴdѕ."""
-    ABOUT_TXT = """<b>✮ 𝙼𝚈 𝙽𝙰𝙼𝙴: lυcαѕ вoт</b>
+    ABOUT_TXT = """<b>✮ 𝙼𝚈 𝙽𝙰𝙼𝙴: Damon</b>
 <b>✮ Creαтor: <a href="https://t.me/Sovel_jaison"> ѕσνєℓ נαιѕση </a>
-<b>✮ Updαтe Cнαɴɴel:<a href="https://t.me/cinemahub00"> ᴄɪɴᴇᴍᴀ ʜᴜʙ </a></b>
+<b>✮ Updαтe Cнαɴɴel:<a href="https://t.me/emotionmedia"> Emotion Media </a></b>
 <b>✮ Lιвrαry: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>
 <b>✮ Lαɴɢυαɢe: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹</b>
 <b>✮ Dαтα Bαѕe: 𝙼𝙾𝙽𝙶𝙾-𝙳𝙱</b>
 <b>✮ Boт Server: 𝙷𝙴𝚁𝙾𝙺𝚄</b>
 <b>✮ Bυιld Sтαтυѕ: 𝚅1.0.43</b>
-<b>✮ Mαιɴтαιɴed By: <a href="https://t.me/bastin_joe"> вαѕтιη נσє </a></b>"""
+<b>✮ Mαιɴтαιɴed By: <a href="https://t.me/theajayms"> AJAY M S </a></b>"""
     DONATION_TXT = """<b>𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧 & 𝐏𝐚𝐢𝐝 𝐏𝐫𝐨𝐦𝐨𝐭𝐢𝐨𝐧</b> 
 
 ›› <b>𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧</b>
@@ -78,7 +78,8 @@ Note:- Give a user details
 
 <b>ᴊᴏɪɴ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ</b>
 
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 :- <a href=https://t.me/cinemahub00>ᴄɪɴᴇᴍᴀʜᴜʙ</a>"""
+
+𝙲𝚁𝙴𝙳𝙸𝚃𝚂 :- <a href=https://t.me/emotionmedia>Emotion Media</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and ᗩᒍᗩ᙭  will respond whenever a keyword is found the message
@@ -103,7 +104,8 @@ Note:- Give a user details
 
 𝚆𝙾𝚁𝙺𝚂 𝙾𝙽𝙻𝚈 𝙾𝙽 𝙶𝚁𝙾𝚄𝙿
 
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 :- <a href=https:https://t.me/cinemahub00>ᴄɪɴᴇᴍᴀʜᴜʙ</a>"""
+
+𝙲𝚁𝙴𝙳𝙸𝚃𝚂 :- <a href=https://t.me/emotionmedia>Emotion Media</a>"""
     PIN_TXT ="""<b>PIN MODULE</b>
 <b>𝙿𝙸𝙽 𝙰 𝙼𝙴𝚂𝚂𝙰𝙶𝙴../</b>
 
@@ -211,7 +213,8 @@ Delete A Lot Of Messages From Groups!
 <b>›› /set_template - 𝚂𝙴𝚃 𝙲𝚄𝚂𝚃𝙾𝙼 𝙸𝙼𝙳𝙱 𝚃𝙴𝙼𝙿𝙻𝙰𝚃𝙴 𝙵𝙾𝚁 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁.</b>
 <b>›› /get_template - 𝙶𝙴𝚃 𝙲𝚄𝚁𝚁𝙴𝙽𝚃 𝙸𝙼𝙳𝙱 𝚃𝙴𝙼𝙿𝙻𝙰𝚃𝙴 𝙾𝙵 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁.</b>
 
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 :- <a href=https:https://t.me/cinemahub00>ᴄɪɴᴇᴍᴀʜᴜʙ</a>"""
+
+𝙲𝚁𝙴𝙳𝙸𝚃𝚂 :- <a href=https://t.me/emotionmedia>Emotion Media</a>"""
     CONNECTION_TXT = """Help: <b>Connections</b>
 
 - Used to connect bot to PM for managing filters 
@@ -252,11 +255,11 @@ This module only works for my admins
 • /unban_user  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """<b>᚛› 🗂️ ᴛᴏᴛᴀʟ ғɪʟᴇs: <code>{}</code></b>
-<b>᚛› 👤 ᴛᴏᴛᴀʟ ᴜsᴇʀs: <code>{}</code></b>
-<b>᚛› 👥 ᴛᴏᴛᴀʟ ᴄʜᴀᴛs: <code>{}</code></b>
-<b>᚛› 📈 ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝙱</b>
-<b>᚛› 📊 ғʀᴇᴇ sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝙱</b>"""
+    STATUS_TXT = """<b>᚛› 𝙏𝙊𝙏𝘼𝙇 𝙁𝙄𝙇𝙀𝙎: <code>{}</code></b>
+<b>᚛› 𝙏𝙊𝙏𝘼𝙇 𝙐𝙎𝙀𝙍𝙎: <code>{}</code></b>
+<b>᚛› 𝙏𝙊𝙏𝘼𝙇 𝘾𝙃𝘼𝙏𝙎: <code>{}</code></b>
+<b>᚛› 𝙐𝙎𝙀𝘿 𝙎𝙏𝙊𝙍𝘼𝙂𝙀: <code>{}</code></b>
+<b>᚛› 𝙁𝙍𝙀𝙀 𝙎𝙏𝙊𝙍𝘼𝙂𝙀: <code>{}</code> 𝙼𝙱</b>"""
     LOG_TEXT_G = """#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
     
 <b>᚛› 𝐆𝐫𝐨𝐮𝐩 ⪼ {}(<code>{}</code>)</b>
